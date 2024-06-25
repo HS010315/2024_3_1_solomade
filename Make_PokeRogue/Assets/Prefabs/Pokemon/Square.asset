@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e613efd44d108b4d9fe9b848a4bf961, type: 3}
+  m_Name: Square
+  m_EditorClassIdentifier: 
+  name: "\uB124\uBAA8"
+  type: 2
+  sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  maxHp: 39
+  attack: 60
+  defense: 43
+  spAttack: 52
+  spDefense: 50
+  speed: 65
+  learnableSkills:
+  - skillBase: {fileID: 11400000, guid: 53fd865d5078899429c40c58db3652da, type: 2}
+    level: 1
+  - skillBase: {fileID: 11400000, guid: bca1fc55537094b4eb552c309422c881, type: 2}
+    level: 8
